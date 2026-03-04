@@ -1,0 +1,36 @@
+{
+    "geode": "3.0.0",
+    "gd": {
+        "win": "2.206",
+        "android": "2.206",
+        "mac": "2.206"
+    },
+    "id": "com.yourname.examplemod",
+    "name": "Example Mod",
+    "version": "v1.0.0",
+    "developer": "YourName",
+    "description": "Пример мода для Geometry Dash с использованием Geode",
+    "repository": "https://github.com/yourusername/your-mod",
+    "dependencies": [],
+    "settings": {
+        "enable-feature": {
+            "name": "Включить функцию",
+            "description": "Включает основную функцию мода",
+            "type": "bool",
+            "default": true
+        },
+        "custom-speed": {
+            "name": "Скорость игры",
+            "description": "Изменяет скорость игры",
+            "type": "float",
+            "default": 1.0,
+            "min": 0.5,
+            "max": 3.0
+        }
+    },
+    "resources": {
+        "sprites": [
+            "resources/*.png"
+        ]
+    }
+}
